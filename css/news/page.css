@@ -1,0 +1,208 @@
+
+
+/* Start:/bitrix/components/bitrix/system.pagenavigation/templates/round/style.css?16684444314597*/
+.bx-pagination {
+    margin: 10px 0;
+}
+
+.bx-pagination .bx-pagination-container {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.bx-pagination .bx-pagination-container ul {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    list-style: none;
+    display: flex;
+    width: 72%;
+}
+
+.bx-pagination .bx-pagination-container ul li {
+    display: flex;
+    margin: 0 2px 15px 2px;
+}
+
+.bx-pagination .bx-pagination-container ul li span {
+    -webkit-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    -moz-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    -ms-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    -o-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    background: none;
+    /*padding: 0 8px;*/
+    /*border-left: 2px solid #CFAF52;*/
+    /*border-right: 2px solid #CFAF52;*/
+    display: block;
+    height: 32px;
+    width: 30px;
+    line-height: 32px;
+    color: #444;
+    font-size: 14px;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bx-pagination .bx-pagination-container ul li a {
+    text-decoration: none;
+    display: block;
+    border-radius: 16px;
+    height: 32px;
+    min-width: 32px;
+    line-height: 32px;
+    color: #444;
+    vertical-align: middle;
+}
+
+.bx-pagination .bx-pagination-container ul li a:hover span {
+    background: #CFAF52;
+    color: #fff !important;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-active span {
+    background: #CFAF52 !important;
+    width: 30px;
+    color: #fff;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-pag-all a span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev a span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next a span {
+    background: none;
+    /*border: 2px solid #eff0f1;*/
+    /*line-height: 28px;*/
+    padding: 0 8px;
+    color: #CFAF52;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-pag-next a span {
+    width: 68px;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev a span {
+    width: 58px;
+}
+
+/*.bx-pagination-container ul li.bx-pag-next a span{*/
+/*	border-left: 2px solid #CFAF52;*/
+/*}*/
+.bx-pagination .bx-pagination-container ul li.bx-pag-all span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next span {
+    color: #CFAF52;
+    background: none;
+    /*border: 2px solid #eff0f1;*/
+    /*line-height: 28px;*/
+    padding: 0 8px;
+}
+
+/*.bx-pagination .bx-pagination-container ul li.bx-pag-prev span{*/
+/*	border-right: 2px solid #CFAF52;*/
+/*}*/
+@media (max-width: 769px) {
+    .bx-pagination .bx-pagination-container ul li.bx-pag-all a span,
+    .bx-pagination .bx-pagination-container ul li.bx-pag-prev a span,
+    .bx-pagination .bx-pagination-container ul li.bx-pag-next a span {
+        background: none;
+        /*border: 2px solid #eff0f1;*/
+        /*line-height: 28px;*/
+        padding: 0px;
+        color: #444;
+    }
+
+    .bx-pagination .bx-pagination-container ul li.bx-pag-all span,
+    .bx-pagination .bx-pagination-container ul li.bx-pag-prev span,
+    .bx-pagination .bx-pagination-container ul li.bx-pag-next span {
+        color: #aab1b4;
+        background: none;
+        /*border: 2px solid #eff0f1;*/
+        /*line-height: 28px;*/
+        padding: 0px;
+    }
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-pag-all a:hover span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev a:hover span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next a:hover span {
+    background: #CFAF52;
+    border-color: #CFAF52;
+    color: #fff;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev a:hover span {
+    background: #CFAF52 !important;
+    height: auto;
+}
+
+/*color schemes*/
+.bx-pagination.bx-green .bx-pagination-container ul li.bx-active span {
+    background: #3bc915;
+    color: #fff;
+}
+
+.bx-pagination.bx-yellow .bx-pagination-container ul li.bx-active span {
+    background: #F9A91D;
+    color: #fff;
+}
+
+.bx-pagination.bx-red .bx-pagination-container ul li.bx-active span {
+    background: #CFAF52;
+    color: #fff;
+}
+
+.bx-pagination.bx-blue .bx-pagination-container ul li.bx-active span {
+    background: #CFAF52;
+    color: #fff;
+}
+
+/* End */
+
+
+/* Start:/local/templates/rgtvktv/components/bitrix/news/news/bitrix/news.list/.default/style.css?1668441572253*/
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+.content-news__padding{
+	width: 320px;
+	min-height: 255px;
+	padding: 15px;
+	margin: 0px 15px 30px;
+}
+
+
+
+/* End */
+
+
+/* Start:/local/templates/rgtvktv/components/bitrix/news.list/popular_news_sidebar/style.css?1667380195150*/
+div.news-list
+{
+	word-wrap: break-word;
+}
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+
+/* End */
+/* /bitrix/components/bitrix/system.pagenavigation/templates/round/style.css?16684444314597 */
+/* /local/templates/rgtvktv/components/bitrix/news/news/bitrix/news.list/.default/style.css?1668441572253 */
+/* /local/templates/rgtvktv/components/bitrix/news.list/popular_news_sidebar/style.css?1667380195150 */
