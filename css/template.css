@@ -49,7 +49,7 @@ h1, h3 {
 }
 
 body {
-    background: #fff;
+    background: #f5ffff;
     position: relative;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-style: normal;
@@ -58,7 +58,7 @@ body {
 }
 
 .header {
-    background: #fff;
+    background: #f5ffff;
 }
 
 .slider-posts h3.header {
@@ -149,7 +149,7 @@ body {
 }
 
 .header-menu__nav nav ul li a:hover {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #43C7F0;
 }
 
 .header-menu__nav nav ul li {
@@ -299,7 +299,7 @@ body {
     align-items: center;
     margin-bottom: 10px;
     padding: 6px 10px;
-    background: #f30f0f;
+    background: #43C7F0;
     border-radius: 20px;
     max-width: 200px;
 }
@@ -669,7 +669,7 @@ audio#fm {
 }
 
 .itemDetail .itemTagsBlock .itemTags li a {
-    background: #cfae52;
+    background: #43C7F0;
     border-radius: 4px;
     padding: 10px 20px;
     font-size: 16px;
@@ -757,7 +757,7 @@ audio#fm {
 }
 
 .menu_sidebar li a:hover {
-    border-bottom: 2px solid #cfae52;
+    border-bottom: 2px solid #43C7F0;
 }
 
 .itemLinks .itemAttachmentsBlock ul,
@@ -1010,7 +1010,7 @@ a {
     /*text-decoration-style: solid;*/
     /*text-decoration-color: red;*/
     /*text-decoration: underline red solid;*/
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #43C7F0;
 }
 
 .subnav-content a {
@@ -2618,7 +2618,7 @@ display: block;
         position: absolute;
         top: -28px;
         left: -20px;
-        background: #fff;
+        background: #f5ffff;
         max-width: none;
         padding: 12px 15px;
         transform: scaleY(0);
@@ -2633,6 +2633,7 @@ display: block;
     }
 
     .search-block input[type="text"] {
+        background: #f5ffff;
         width: auto;
         padding: 8px 0px 8px 40px !important;
     }
