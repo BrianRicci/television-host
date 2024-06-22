@@ -57,6 +57,16 @@ body {
     overflow-x: hidden;
 }
 
+.logo {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.header-logo {
+    display: inline;
+    width: 15%;
+}
+
 .header {
     background: #f5ffff;
 }
